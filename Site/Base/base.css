@@ -9,7 +9,6 @@ div#container {
 }
 
 div#menu {
-    background-color: yellow;
     width: 80%;
     height: 1%;
     margin-left: auto;
@@ -21,4 +20,13 @@ div#menu {
 
 a{
     padding: 5px;
+
+}
+
+a:hover {
+    background-color: white;
+}
+
+a, a:link {
+    text-decoration: none;
 }
