@@ -27,8 +27,8 @@ a{
 
 }
 
-a:hover {
-    background-color: white;
+.button:hover {
+   color: dodgerblue;
 }
 
 a, a:link {
