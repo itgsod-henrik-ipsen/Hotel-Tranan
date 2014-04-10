@@ -17,17 +17,20 @@ div#logo {
 }
 
 div#hotel-name {
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 div#menu {
-    background-color: yellowgreen;
     text-align: center;
     width: 750px;
     height: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: ;
 
 
 }
