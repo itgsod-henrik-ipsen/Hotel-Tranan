@@ -11,7 +11,7 @@ div#container {
 div#logo {
     margin-top: 10px;
     margin-left: 150px;
-    background-color: blue;
+    background-color: cornflowerblue;
     width: 125px;
     height: 125px;
 }
@@ -37,7 +37,7 @@ div#menu {
 
 div#pictureslide {
     background-color: whitesmoke;
-    width: 1000px;
+    width: 80%;
     height: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +51,27 @@ div#info {
     margin-left: auto;
     margin-right: auto;
 }
+
+div#booking {
+    width: 30%;
+    height: 400px;
+    background-color: cornflowerblue;
+    float: left;
+
+}
+
+div#row2 {
+    width: 80%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+}
+
+div#contact-info {
+
+}
+
 .button {
     color: white;
 }
