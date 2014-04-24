@@ -69,6 +69,10 @@ div#row2 {
 }
 
 div#contact-info {
+    width: 30%;
+    height: 400px;
+    background-color: royalblue;
+    float: right;
 
 }
 
