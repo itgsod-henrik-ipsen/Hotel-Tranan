@@ -1,0 +1,16 @@
+div#pic {
+    width: 80%;
+    height: 300px;
+    background-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#row2 {
+    width: 80%;
+    height: 800px;
+    background-color: powderblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
