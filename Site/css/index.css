@@ -1,6 +1,5 @@
 div#pictureslide {
-    background-color: whitesmoke;
-    width: 80%;
+    width: 1010px;
     height: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -8,7 +7,6 @@ div#pictureslide {
 }
 
 div#info {
-    background-color: white;
     width: 400px;
     height: 400px;
     margin-left: auto;
@@ -28,12 +26,13 @@ div#row2 {
     height: 40%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 div#contact-info {
+    margin-left: 60px;
     width: 30%;
     height: 400px;
-    background-color: royalblue;
     float: right;
 
 }

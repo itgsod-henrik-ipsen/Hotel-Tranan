@@ -35,6 +35,10 @@ div#menu {
 
 }
 
+p {
+    color: white;
+}
+
 
 
 .button {
@@ -52,4 +56,12 @@ a{
 
 a, a:link {
     text-decoration: none;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
+h6 {
+    color: cornflowerblue;
 }
