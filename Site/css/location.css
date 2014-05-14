@@ -6,7 +6,6 @@ div#row2 {
 }
 
 div#map {
-    background-color: darkred;
     width: 300px;
     height: 300px;
     float: left;
@@ -16,7 +15,6 @@ div#info {
     margin-left: 310px;
     height: 300px;
     width: 700px;
-    background-color: royalblue;
 }
 
 div#pics {
