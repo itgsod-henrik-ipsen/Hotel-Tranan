@@ -31,8 +31,6 @@ div#menu {
     height: 20px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 p {
@@ -41,18 +39,16 @@ p {
 
 
 
-.button {
+
+#menu a {
     color: white;
 }
 
-a{
-    padding: 5px;
-
+#menu a:hover {
+    color: dodgerblue;
 }
 
-.button:hover {
-   color: dodgerblue;
-}
+a { padding: 5px; }
 
 a, a:link {
     text-decoration: none;
@@ -64,4 +60,8 @@ h3 {
 
 h6 {
     color: cornflowerblue;
+}
+
+li {
+    color: white;
 }
