@@ -106,7 +106,7 @@ Epoch.prototype.setLang = function()  //all language settings for Epoch are made
 	this.months_sh = new Array('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');
 	this.monthup_title = 'Go to the next month';
 	this.monthdn_title = 'Go to the previous month';
-	this.clearbtn_caption = 'Clear';
+	this.clearbtn_caption = 'Book';
 	this.clearbtn_title = 'Clears any dates selected on the calendar';
 	this.maxrange_caption = 'This is the maximum range';
 };
