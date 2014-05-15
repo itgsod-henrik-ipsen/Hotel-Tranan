@@ -8,7 +8,6 @@ div#row2 {
 div#infobox {
     width: 80%;
     height: 300px;
-    background-color: darkseagreen;
     margin-left: auto;
     margin-right: auto;
 }
@@ -17,7 +16,6 @@ div#infobox2 {
     width: 80%;
     height: 300px;
     margin-top: 10px;
-    background-color: sandybrown;
     margin-left: auto;
     margin-right: auto;
 }

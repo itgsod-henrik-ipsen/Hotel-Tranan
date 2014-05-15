@@ -9,13 +9,11 @@ div#calender {
     float: left;
     width: 200px;
     height: 200px;
-    background-color: cornflowerblue;
 }
 
 div#info {
     width: 790px;
     height: 200px;
-    background-color: mediumpurple;
     margin-left: 210px;
 
 }
@@ -24,12 +22,11 @@ div#offer {
     width: 1000px;
     height: 200px;
     margin-top: 10px;
-    background-color: darkred;
 }
 
 div#offer2 {
     width: 1000px;
     height: 200px;
     margin-top: 10px;
-    background-color: blueviolet;
+
 }
