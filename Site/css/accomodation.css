@@ -6,9 +6,8 @@ div#row2 {
 }
 
 div#special {
-     background-color: gold;
-     height: 200px;
-     width: 20%;
+     height: 120px;
+     width: 260px;
      float: left;
      position: fixed;
  }
