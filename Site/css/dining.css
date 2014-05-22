@@ -1,5 +1,5 @@
 div#pic {
-    width: 80%;
+    width: 1010px;
     height: 300px;
     background-color: cornflowerblue;
     margin-left: auto;
@@ -7,7 +7,7 @@ div#pic {
 }
 
 div#row2 {
-    width: 80%;
+    width: 600px;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
