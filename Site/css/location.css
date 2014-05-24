@@ -5,6 +5,7 @@ div#row2 {
     margin-right: auto;
 }
 
+/*Describe how big the google map should be, and make it float to the left so an different div can be next to it*/
 div#map {
     width: 300px;
     height: 300px;
@@ -30,8 +31,8 @@ div#info2 {
 }
 
 div#pic1 {
-    float: left;
-    padding-right: 5px;
+    float: left; /*Make it possible for pic2 to lay next to pic1*/
+    padding-right: 5px; /*Adds some space between pic1 and 2*/
 }
 
 
