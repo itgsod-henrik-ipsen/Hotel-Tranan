@@ -12,21 +12,26 @@ div#calender {
 }
 
 div#info {
-    width: 800px;
+    width: 600px;
     height: 200px;
     margin-left: 210px;
 
 }
 
 div#offer {
-    width: 1000px;
+    width: 800px;
     height: 200px;
     margin-top: 10px;
 }
 
 div#offer2 {
-    width: 1000px;
+    width: 800px;
     height: 200px;
     margin-top: 10px;
 
+}
+
+img {
+    float: right;
+    padding-left: 10px;
 }
