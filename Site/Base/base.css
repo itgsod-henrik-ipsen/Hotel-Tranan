@@ -32,36 +32,37 @@ div#menu {
     margin-left: auto;
     margin-right: auto;
 }
-
+/*Describe the characteristics of how all the normal text should look in all html files*/
 p {
-    color: white;
+    color: white; /*Decide which color the text should have*/
 }
 
 
 
 
 #menu a {
-    color: white;
+    color: white; /*Decide which color all text that links to another page should have*/
 }
 
+/*Describe which effect should happen when you hover the mouse over text that links to another page*/
 #menu a:hover {
-    color: dodgerblue;
+    color: dodgerblue; /*When you hover the text turns into to the color written in this line*/
 }
 
-a { padding: 5px; }
+a { padding: 10px; } /*Adds some space between texts that links to another page*/
 
 a, a:link {
-    text-decoration: none;
+    text-decoration: none; /*Removes all text decoration such as lines under the text when linking to another page*/
 }
 
 h3 {
-    color: cornflowerblue;
+    color: cornflowerblue; /*Decide which color the titles with size h3 should have*/
 }
 
 h6 {
-    color: cornflowerblue;
+    color: cornflowerblue; /*Decide which color the titles with size h6 should have*/
 }
 
 li {
-    color: white;
+    color: white; /*Makes all list text white*/
 }
