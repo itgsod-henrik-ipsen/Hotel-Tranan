@@ -1,7 +1,7 @@
+/*Centers the pic*/
 div#pic {
     width: 1010px;
     height: 300px;
-    background-color: cornflowerblue;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,7 +9,7 @@ div#pic {
 div#row2 {
     width: 600px;
     height: 800px;
-    margin-left: auto;
+    margin-left: auto; /*This line and the one under centers the image*/
     margin-right: auto;
-    margin-top: 5px;
+    margin-top: 5px; /*Adds some space between the image and div*/
 }
