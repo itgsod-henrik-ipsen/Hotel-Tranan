@@ -25,6 +25,7 @@ div#pic {
     float: right;
 }
 
+/*Add space between the images */
 img {
     margin-top: 10px;
 }
