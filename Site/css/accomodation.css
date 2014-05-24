@@ -20,10 +20,13 @@ div#info {
  }
 
 div#pic {
-    background-color: darkred;
     height: 800px;
-    width: 27%;
+    width: 300px;
     float: right;
+}
+
+img {
+    margin-top: 10px;
 }
 
 
