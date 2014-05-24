@@ -1,3 +1,4 @@
+/*Describe the size of the picture slide and centers it*/
 div#pictureslide {
     width: 1010px;
     height: 400px;
@@ -17,7 +18,7 @@ div#booking {
     width: 30%;
     height: 400px;
     background-color: cornflowerblue;
-    float: left;
+    float: left; /*Makes it possible for divs to lay next to each other*/
 
 }
 
@@ -33,8 +34,6 @@ div#contact-info {
     margin-left: 60px;
     width: 30%;
     height: 400px;
-    float: right;
+    float: right; /*Makes the div lay to the right of the screen while having a div to its left*/
 
 }
-
-p
