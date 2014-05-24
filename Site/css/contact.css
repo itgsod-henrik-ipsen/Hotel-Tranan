@@ -1,11 +1,14 @@
 div#info {
     width:600px ;
-    height:600px ;
-    margin-left: auto;
-    margin-right: auto;
+    height:250px ;
+    float: left;
+    margin-left: 125px;
 
 }
 
-h3 {
-    text-align: center;
+div#contact-info {
+    margin-left: 750px; /*Makes it so that the info div don´t overlap the contact-info div, and adds a 25px "margin"*/
+    width: 300px;
+    height: 250px;
 }
+
