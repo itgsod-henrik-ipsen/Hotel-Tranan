@@ -1,3 +1,10 @@
+div#row2 {
+    width: 80%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Centers the pic*/
 div#pic {
     width: 1010px;
@@ -6,7 +13,7 @@ div#pic {
     margin-right: auto;
 }
 
-div#row2 {
+div#info {
     width: 600px;
     height: 800px;
     margin-left: auto; /*This line and the one under centers the image*/
