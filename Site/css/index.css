@@ -14,10 +14,7 @@ div#info {
     margin-right: auto;
 }
 
-div#booking {
-    width: 30%;
-    height: 400px;
-    background-color: cornflowerblue;
+div#pic {
     float: left; /*Makes it possible for divs to lay next to each other*/
 
 }
