@@ -12,3 +12,32 @@ div#contact-info {
     height: 250px;
 }
 
+div#contact-info ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sprite {
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    background: url("../images/css_sprites.png") 0 -14px;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    background: url("../images/css_sprites.png") -78px -14px;
+    float: left;
+}
+
+.google {
+    width: 60px;
+    height: 50px;
+    background: url("../images/css_sprites.png") -150px -14px;
+}
