@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+    <link rel="stylesheet" href="css/card.css">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="Base/base.css"/>
     <link rel="stylesheet" type="text/css" href="css/booking.css"/>
@@ -17,6 +19,23 @@
 
 </head>
 <body>
+
+<style>
+    .formum {
+        width: 350px;
+        margin: 50px auto;
+    }
+
+    form {
+        margin: 30px;
+    }
+    input {
+        width: 200px;
+        margin: 10px auto;
+        display: block;
+    }
+
+</style>
 <div id="container">
     <div id="logo">
         <a href="index.html"><img src="images/logo.png"></a>
@@ -33,7 +52,7 @@
     <div id="row2">
         <div id="calender">
 
-            <div id="multi_container"><table id="epoch_multi_calendar" class="calendar" classname="calendar" style="display: block;"></table></div>
+            <!--<div id="multi_container"><table id="epoch_multi_calendar" class="calendar" classname="calendar" style="display: block;"></table></div>-->
         </div>
         <div id="info">
             <h3>Rooms</h3>
@@ -49,9 +68,27 @@
             <h3>Book now and get breakfast on the house</h3>
             <p>Duis sit amet erat eu nulla vulputate aliquet vel quis augue.<img src="images/hotel-breakfast.jpg"> Curabitur suscipit nulla nisi, at gravida eros pretium non. Suspendisse nec magna lacus. Sed nec sem neque. Quisque eget mauris in mi posuere scelerisque. In semper justo erat. Sed dictum non tortor sit amet scelerisque. Etiam auctor justo lacinia blandit tincidunt. Etiam at pellentesque dui. Nam erat leo, viverra sit amet turpis in, bibendum sodales velit. Donec id interdum neque. Phasellus convallis eros non est vulputate, cursus placerat dolor cursus. Fusce eu mauris est. Nunc semper rhoncus vestibulum. Vestibulum in leo eget risus dapibus sodales at quis dolor. Mauris id congue massa, quis malesuada tortor.</p>
         </div>
+        <div class="formum">
+            <p>Buy now</p>
+            <div class="card-wrapper"></div>
+
+            <div class="form-container active">
+                <form action="">
+                    <input placeholder="Card number" type="text" name="number">
+                    <input placeholder="Full name" type="text" name="name">
+                    <input placeholder="MM/YY" type="text" name="expiry">
+                    <input placeholder="CVC" type="text" name="cvc">
+                </form>
+            </div>
+        </div>
 
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="javascript/card.js"></script>
+<script>
+    $('.active form').card({ container: $('.card-wrapper')})
+</script>
 
 </body>
 </html>
